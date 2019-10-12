@@ -1,37 +1,39 @@
-h1 {
+body {
+    background: wheat; 
+}
+header {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width:960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blonde-fauxlocs { width: 200px;
+                height: 275px;
+}
+.container {
+    padding: 50px;
+    margin: 75px;
+    width: 960px; 
+}
+.name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-    background: #ffffff;
 }
-div class="main-header-background" {
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 30px;
+} 
 
-     background:#ffffff;
-
+ul { position: fixed ;
+}
+nav {
+    float: right;
 }
 
-h2 {
-}
-li {
-width: 100px;
-height: 200px;
-background: greenyellow;
-display: inline;
-}
-ul {
-float: right;
-}
-img { 
-    position: relative;
-    width: 200px;
-    height: 200px;
-}
- section {
-     width: 600px;
-     height: 200px;
-     background: teal;
-     font:#777777;   
+ footer {
+     background: #666666;
+     width: 960px;clear: both;
  }
-
- . {
-     background: #777777;
- } 
